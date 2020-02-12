@@ -1,6 +1,6 @@
 # Car-Rental-Store
 This is the PL2 project, Car rental Store using Java.
-##1-	Admin
+## 1-	Admin
 •	Add Car in car file .
 •	Manage Booking Car .
 •	Is Rented .
@@ -9,7 +9,7 @@ Which Given By User .
 •	Make A Reports About Costumers .
 •	Solve the query of costumers . 
 •	Generate a daily report about costumers reservation .
-##2-	Costumer 
+## 2-	Costumer 
 •	Select a car type to rent .
 •	Select a schedule for renting car .
 •	Reschedule reservation .
