@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Multi-file class diagram">
+  <ClassDiagramComponents>
+    <Class name="Admin" package="" visibility="public" xPosition="1539.0" yPosition="337.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="AddCar" returnType="void" visibility="public"/>
+        <Method name="ManageBooking" returnType="void" visibility="public"/>
+        <Method name="GetInquiry" returnType="void" visibility="public"/>
+        <Method name="SolveInquiry" returnType="void" visibility="public"/>
+        <Method name="CustHistory" returnType="void" visibility="public"/>
+        <Method name="AddMotorCycle" returnType="void" visibility="public"/>
+        <Method name="SendMail" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Car" package="" visibility="public" xPosition="66.0" yPosition="667.0">
+      <Fields>
+        <Field name="NumSeat" type="int" visibility="public"/>
+        <Field name="Control" type="String" visibility="public"/>
+        <Field name="Temprature" type="double" visibility="public"/>
+        <Field name="Cartype" type="String" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="CarInfo" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="CallSuport_Center" package="" visibility="public" xPosition="813.0" yPosition="24.0">
+      <Fields>
+        <Field name="FeedBack" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="GetReport" returnType="String" visibility="public"/>
+        <Method name="GetFeedBack" returnType="String" visibility="public"/>
+        <Method name="SetFeedBack" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="CarRent" package="" visibility="public" xPosition="578.0" yPosition="12.0">
+      <Fields>
+        <Field name="Address" type="String" visibility="public"/>
+        <Field name="Phone" type="int" visibility="public"/>
+        <Field name="name" type="String" visibility="public"/>
+        <Field name="VechileNum" type="int" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Customer" package="" visibility="public" xPosition="778.0" yPosition="368.0">
+      <Fields>
+        <Field name="Licence" type="int" visibility="public"/>
+        <Field name="Address" type="String" visibility="public"/>
+        <Field name="CarId" type="int" visibility="public"/>
+        <Field name="ID" type="int" visibility="public"/>
+        <Field name="date" type="Date" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="SelectSchedule" returnType="boolean" visibility="public"/>
+        <Method name="CancelBooking" returnType="void" visibility="public"/>
+        <Method name="Reschedule" returnType="void" visibility="public"/>
+        <Method name="MakeQuery" returnType="void" visibility="public"/>
+        <Method name="GiveFeedBack" returnType="void" visibility="public"/>
+        <Method name="viewallCar" returnType="void" visibility="public"/>
+        <Method name="SearchByprice" returnType="void" visibility="public"/>
+        <Method name="SearchByModel" returnType="void" visibility="public"/>
+        <Method name="Buy" returnType="void" visibility="public"/>
+        <Method name="Sell" returnType="void" visibility="public"/>
+        <Method name="Rent" returnType="void" visibility="public"/>
+        <Method name="SignUp" returnType="void" visibility="public"/>
+        <Method name="GetID" returnType="int" visibility="public"/>
+        <Method name="viewallVec" returnType="void" visibility="public"/>
+        <Method name="SearchBydate" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Engine" package="" visibility="public" xPosition="13.0" yPosition="133.0">
+      <Fields>
+        <Field name="Force" type="int" visibility="public"/>
+        <Field name="Code" type="String" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="EngineInfo" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="FileManager" package="" visibility="public" xPosition="1293.0" yPosition="573.0">
+      <Fields>
+        <Field name="FileName" type="String" visibility="public"/>
+        <Field name="FilePath" type="String" visibility="public"/>
+        <Field name="FileType" type="String" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="ReadFromFile" returnType="void" visibility="public"/>
+        <Method name="WriteInFile" returnType="void" visibility="public"/>
+        <Method name="DeleteRecord" returnType="void" visibility="public"/>
+        <Method name="Search" returnType="boolean" visibility="public"/>
+        <Method name="EditeRecord" returnType="void" visibility="public"/>
+        <Method name="Returnrecord" returnType="void" visibility="public"/>
+        <Method name="WriteInBin" returnType="void" visibility="public"/>
+        <Method name="ReadFromBin" returnType="object" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="MotorCycle" package="" visibility="public" xPosition="301.0" yPosition="686.0">
+      <Fields>
+        <Field name="HelmetType" type="String" visibility="public"/>
+        <Field name="MotorCycleType" type="String" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="MotorCycleInfo" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Store" package="" visibility="public" xPosition="578.0" yPosition="209.0">
+      <Fields>
+        <Field name="Storepassword" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="MangeVcType" returnType="void" visibility="public"/>
+        <Method name="SetPassword" returnType="void" visibility="public"/>
+        <Method name="GetPassword" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="person" package="" visibility="public" xPosition="1549.0" yPosition="12.0">
+      <Fields>
+        <Field name="Name" type="String" visibility="public"/>
+        <Field name="Gender" type="String" visibility="public"/>
+        <Field name="Password" type="String" visibility="private"/>
+        <Field name="email" type="String" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="Login" returnType="void" visibility="public"/>
+        <Method name="SetPassword" returnType="void" visibility="public"/>
+        <Method name="GetPassword" returnType="String" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="vechils" package="" visibility="public" xPosition="224.0" yPosition="57.0">
+      <Fields>
+        <Field name="ID" type="int" visibility="public"/>
+        <Field name="Price" type="double" visibility="public"/>
+        <Field name="Model" type="String" visibility="public"/>
+        <Field name="Color" type="String" visibility="public"/>
+        <Field name="MaxSpeed" type="int" visibility="public"/>
+        <Field name="IsRented" type="boolean" visibility="public"/>
+        <Field name="State" type="String" visibility="public"/>
+        <Field name="VType" type="String" visibility="public"/>
+        <Field name="RentPerDay" type="double" visibility="public"/>
+        <Field name="From" type="date" visibility="public"/>
+        <Field name="To" type="date" visibility="public"/>
+        <Field name="VImage" type="image" visibility="public"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="PaymenrtMethode" package="" visibility="public" xPosition="1157.0" yPosition="12.0">
+      <Fields>
+        <Field name="Balance" type="floate" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="SelectPaymentMethode" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="associate" source="Admin" target="FileManager" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="associate" source="Customer" target="vechils" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="MotorCycle" target="vechils"/>
+    <HasRelation name="bay" source="Customer" target="PaymenrtMethode" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="control" source="Admin" target="Store" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="show" source="Admin" target="PaymenrtMethode" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="has" source="vechils" target="Engine" type="Composition" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Car" target="vechils"/>
+    <IsRelation name="is" source="Store" target="CarRent"/>
+    <HasRelation name="associate" source="CallSuport_Center" target="Admin" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="Admin" target="person"/>
+    <IsRelation name="is" source="Customer" target="person"/>
+    <HasRelation name="treate" source="CallSuport_Center" target="FileManager" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="associate" source="Customer" target="Admin" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="treate" source="Customer" target="FileManager" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+    <HasRelation name="associate" source="Customer" target="CallSuport_Center" type="Default" sourceCardinality="0..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
